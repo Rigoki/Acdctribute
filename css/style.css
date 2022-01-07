@@ -1,0 +1,167 @@
+/*GENERAL*/
+@font-face{
+    font-family: rocknroll;
+    src:url(../font/rocknroll_typo_crazy.ttf);
+    font-family: hard;
+    src:url(../font/HARD_ROCK.ttf);
+}
+body {
+    background: url("../img/wallpaperflare.com_wallpaper.jpg") center;
+    font-family: 'Creepster', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 5px;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+header {
+    font-size: 0.9em;
+}
+
+
+/*Nav*/
+
+.navbar {
+    position: fixed!important;
+    height: 10vh;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    z-index: 9;
+}
+
+i {
+    color: rgb(156, 9, 9);
+    text-shadow: black 2px 5px;
+}
+
+nav a {
+    color: white;
+    text-shadow: black 1px 3px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav li a {
+    color: red!important;
+    margin: 0 0.5em;
+    text-shadow: black 1px 3px;
+}
+
+nav li:hover {
+    transition: 0.6s ease-in;
+    background-color: black;
+}
+
+nav li:hover a {
+    color: white! important;
+}
+
+.navbar-collapse {
+    border-radius: 5px;
+    background: #212529;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        height: 12vh;
+    }
+    .navbar-collapse {
+        box-shadow: 10px 5px 5px black;
+    }
+}
+
+
+/*Section 1*/
+
+#acdc {
+    margin-top: 15vh;
+}
+audio {margin: 2em 0;
+
+}
+
+/*Membres*/
+
+.carousel-item img {
+    width: 310px;
+    height: 330px;
+}
+
+.carousel-item {
+    text-shadow: red 1px 3px;
+}
+
+
+/*DISCOGRAPHIE*/
+
+.card {
+    margin-bottom: 1em;
+}
+.card h5,
+.card p {
+    text-shadow: wheat 1px 3px;
+}
+
+.card a {
+    text-shadow: black 1px 3px;
+}
+
+
+/*Concer*/
+
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 3px;
+}
+
+th {
+    border-bottom: red solid 1px;
+    color: red;
+    text-shadow: black 1px 3px;
+}
+
+td {
+    border-bottom: gray solid 1px;
+    text-shadow: black 1px 3px;
+}
+
+
+/*Contact*/
+
+#form-center {
+    padding-left: 25%;
+}
+
+#contact form ::-webkit-input-placeholder {
+    color: rgb(156, 9, 9);
+    text-shadow: black 1px 2px;
+}
+
+#contact input[type=text],
+#contact textarea[type=text] {
+    text-shadow: gray 1px 2px;
+}
+
+#contact textarea {
+    margin-bottom: 1em;
+}
+
+
+/*footer*/
+
+footer {
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
